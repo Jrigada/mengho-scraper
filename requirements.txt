@@ -1,0 +1,12 @@
+playwright==1.44
+pandas==2.2
+beautifulsoup4
+gspread
+gspread-dataframe
+google-auth
+python-dotenv
+gspread==6.0.2
+oauth2client
+gspread-formatting
+html5lib
+lxml
