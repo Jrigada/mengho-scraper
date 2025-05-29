@@ -16,7 +16,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # ── credenciales ───────────────────────────────────────────────────────
-CREDS_JSON     = os.getenv("GOOGLE_SERVICE_ACCOUNT_JSON")
+CREDS_JSON     = os.getenv("GOOGLE_CREDS_JSON")
 SPREADSHEET_ID = os.getenv("SPREADSHEET_ID") or "1-jaTeMIjrlsoIfTUBGZhT88D0lssWez256S8YM5ae7o"
 
 gc = gspread.service_account(filename=CREDS_JSON)
